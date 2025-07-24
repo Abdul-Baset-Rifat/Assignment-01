@@ -30,12 +30,12 @@ nav{
 nav ul li {
     list-style: none;
 }
-body{
+header{
     background-image: url('../images/Hero-bg.png'); 
     background-repeat: repeat; 
     background-size: auto; 
     background-color: #f3f4f6;
-    gap: 158px;
+   
     
 }
 
@@ -66,4 +66,58 @@ body{
     display: flex;
     align-items: center;
 
+}
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    margin: 105px 140px;
+
+}
+.banner2-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.banner-description{
+    font-weight: 200px;
+    font-size: 24px;
+}
+.banner-pic{
+    border-radius:48px;
+    overflow: hidden;
+}
+/* Productive users */
+.user-bg{
+    background-color:rgb(213, 222, 254)  ;
+    width: 1140px;
+   
+    margin: 0px 159px;
+    border-radius: 24px;
+}
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    padding: 30px 0 10px;
+    text-align: center;
+}
+.user-data{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.numbers{
+    color: #4E47FF;
+    font-size: 80px;
+    font-family: sans-serif;
+}
+.data{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 30px;
+    padding: 0 0 30px 30px;
+}
+.user-items{
+    line-height: 1.2;
+    text-align: center;
 }
