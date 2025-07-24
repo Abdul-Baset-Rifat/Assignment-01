@@ -122,10 +122,15 @@ header{
     text-align: center;
 }
 /* review */
-
+.reviews{
+    
+    text-align: center;
+}
 .review-container{
     display: flex;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .review{
     padding: 24px 24px;
@@ -145,4 +150,42 @@ header{
 }
 .review-date{
     color: #B3B3B3;
+}
+/* Webflow */
+.webflow{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 142px;
+}
+.webflow-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.webflow-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+}
+.third-button{
+    font-size: 16px;
+    color :white;
+    background-color:rgba(78, 71, 255, 1) ;
+    font-weight: normal;
+    padding: 12px 36px;
+     margin: 20px 146px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.webflow-pix{
+    border-radius: 48px;
+    overflow: hidden;
+    width: 840px;
+    height: 364.77px;
 }
