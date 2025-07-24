@@ -121,3 +121,28 @@ header{
     line-height: 1.2;
     text-align: center;
 }
+/* review */
+
+.review-container{
+    display: flex;
+    gap: 20px;
+}
+.review{
+    padding: 24px 24px;
+}
+.reviewer-avatar{
+    display: flex;
+    gap: 10px; 
+}
+.review-title{
+    font-size: 26px;
+}
+.review-description{
+    font-weight: normal;
+}
+.reviewer-name{
+    color:#757575;
+}
+.review-date{
+    color: #B3B3B3;
+}
